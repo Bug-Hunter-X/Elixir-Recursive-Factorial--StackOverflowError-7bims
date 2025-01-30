@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Elixir: stack overflow errors caused by non-tail-recursive functions.  The `bug.ex` file contains a recursive factorial function that's prone to this error when given large inputs.  The solution in `bugSolution.ex` shows how to correct this using tail recursion optimization.
